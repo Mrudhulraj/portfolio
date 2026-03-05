@@ -7,6 +7,7 @@ import {
   FaFigma,
   FaAws,
 } from 'react-icons/fa'
+import { FaGolang } from 'react-icons/fa6'
 import {
   SiJavascript,
   SiTypescript,
@@ -14,23 +15,29 @@ import {
   SiPostgresql,
   SiTailwindcss,
   SiNextdotjs,
+  SiDjango,
+  SiRedis,
+  SiRocksdb,
+  SiTerraform,
+  SiKubernetes,
+  SiApachekafka,
 } from 'react-icons/si'
+import { VscAzure } from 'react-icons/vsc'
 
 // ===== PERSONAL INFO =====
 // Update these with your own details
 export const personalInfo = {
-  name: 'Your Name',
-  title: 'Full Stack Developer',
+  name: 'Mrudhulraj Natarajan',
+  title: 'AI Developer + Backend Engineer',
   tagline: 'I build exceptional digital experiences that live on the internet.',
   description:
     'A passionate developer with experience in building web applications with modern technologies. I love turning complex problems into simple, beautiful, and intuitive solutions.',
-  email: 'your.email@example.com',
-  location: 'Your City, Country',
+  email: 'mrudhuln@uci.edu',
+  location: 'Irvine, USA',
   resumeUrl: '#', // Link to your resume PDF
   socialLinks: {
-    github: 'https://github.com/yourusername',
-    linkedin: 'https://linkedin.com/in/yourusername',
-    twitter: 'https://twitter.com/yourusername',
+    github: 'https://github.com/Mrudhulraj',
+    linkedin: 'https://www.linkedin.com/in/mrudhulraj-natarajan/',
   },
 }
 
@@ -38,15 +45,14 @@ export const personalInfo = {
 export const aboutData = {
   image: '', // Add path to your photo
   bio: [
-    "Hello! I'm a software developer who enjoys creating things that live on the internet. My interest in web development started back when I first tried customizing a website — turns out that taught me a lot about HTML & CSS!",
-    "Fast-forward to today, and I've had the privilege of working at various companies, building products that reach thousands of users. My main focus these days is building accessible, inclusive products and digital experiences.",
-    "When I'm not coding, you'll find me exploring new technologies, contributing to open source, or enjoying a good cup of coffee.",
+    "Hello! I'm an AI Research Engineer/Developer who enjoys developing optimized backend-applications. My interests lies in the intersection of AI and Systems.",
+    "My experience primarily focuses on Agentic AI, LLM-inference-optimization,Distributed Edge Systems and K8s. "
   ],
   highlights: [
     { label: 'Years Experience', value: '3+' },
-    { label: 'Projects Completed', value: '20+' },
-    { label: 'Technologies', value: '15+' },
-    { label: 'Coffee Cups', value: '∞' },
+    { label: 'Projects Completed', value: '15+' },
+    { label: 'Technologies', value: '10+' },
+    { label: 'Curiosity', value: '∞' },
   ],
 }
 
@@ -55,11 +61,11 @@ export const aboutData = {
 export const projectsData = [
   {
     id: 1,
-    title: 'E-Commerce Platform',
+    title: 'Distributed File Storage System',
     description:
-      'A full-featured online store with user authentication, product management, shopping cart, and payment integration. Built with modern web technologies for optimal performance.',
+      'A Distributed File System using a B-Tree metadata store for hierarchical namespace management and a FUSE filesystem interface for POSIX compliant file operations. Guranteed Data Consistency and Replication of Data across Nodes. Amplified write upto 655x using client-side buffering',
     image: '', // Add project screenshot path
-    tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+    tags: ['Golang', 'Grpc', 'ChunkServers'],
     category: 'fullstack',
     liveUrl: '#',
     githubUrl: '#',
@@ -143,19 +149,25 @@ export const skillsData = {
     {
       title: 'Backend',
       skills: [
-        { name: 'Node.js', icon: FaNodeJs, level: 85 },
-        { name: 'Python', icon: FaPython, level: 75 },
-        { name: 'MongoDB', icon: SiMongodb, level: 80 },
+        { name: 'Golang', icon: FaGolang, level: 90 },
+        { name: 'Python', icon: FaPython, level: 80 },
+        { name: 'Django', icon: SiDjango, level: 85 },
         { name: 'PostgreSQL', icon: SiPostgresql, level: 70 },
+        { name: 'Redis', icon: SiRedis, level: 80 },
+        { name: 'RocksDB', icon: SiRocksdb, level: 80 },
       ],
     },
     {
       title: 'Tools & Other',
       skills: [
         { name: 'Git', icon: FaGitAlt, level: 90 },
-        { name: 'Docker', icon: FaDocker, level: 70 },
-        { name: 'AWS', icon: FaAws, level: 65 },
-        { name: 'Figma', icon: FaFigma, level: 75 },
+        // { name: 'GRPC', icon: FaGrpc, level: 90 },  
+        { name: 'Docker', icon: FaDocker, level: 85 },
+        { name: 'Kubernetes', icon: SiKubernetes, level: 85 },
+        { name: 'Kafka', icon: SiApachekafka, level: 70 },
+        { name: 'AWS', icon: FaAws, level: 80 },
+        { name: 'Azure', icon: VscAzure, level: 80 },
+        { name: 'Terraform', icon: SiTerraform, level: 75 },
       ],
     },
   ],

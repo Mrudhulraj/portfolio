@@ -1,5 +1,5 @@
 import { personalInfo } from '../../data/portfolioData'
-import { FaGithub, FaLinkedin, FaTwitter, FaArrowDown } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaArrowDown } from 'react-icons/fa'
 import './Hero.css'
 
 const Hero = () => {
@@ -58,15 +58,7 @@ const Hero = () => {
             >
               <FaLinkedin size={22} />
             </a>
-            <a
-              href={personalInfo.socialLinks.twitter}
-              target="_blank"
-              rel="noreferrer"
-              className="hero__social-link"
-              aria-label="Twitter"
-            >
-              <FaTwitter size={22} />
-            </a>
+
           </div>
         </div>
 

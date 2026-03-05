@@ -3,7 +3,7 @@ import { projectsData } from '../../data/portfolioData'
 import ProjectCard from './ProjectCard'
 import './Projects.css'
 
-const categories = ['all', 'frontend', 'backend', 'fullstack']
+const categories = ['all', 'frontend', 'backend']
 
 const Projects = () => {
   const [activeCategory, setActiveCategory] = useState('all')

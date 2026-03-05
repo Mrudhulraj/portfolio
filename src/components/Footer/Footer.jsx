@@ -1,5 +1,5 @@
 import { personalInfo, navLinks } from '../../data/portfolioData'
-import { FaGithub, FaLinkedin, FaTwitter, FaHeart } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaHeart } from 'react-icons/fa'
 import './Footer.css'
 
 const Footer = () => {
@@ -57,14 +57,6 @@ const Footer = () => {
                 aria-label="LinkedIn"
               >
                 <FaLinkedin size={20} />
-              </a>
-              <a
-                href={personalInfo.socialLinks.twitter}
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Twitter"
-              >
-                <FaTwitter size={20} />
               </a>
             </div>
           </div>
