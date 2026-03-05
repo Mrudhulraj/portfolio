@@ -1,19 +1,6 @@
-# 🚀 My Portfolio
+# My Portfolio
 
-A modern, responsive portfolio website built with **React + Vite**. Showcase your projects, skills, and contact information with a sleek dark theme design.
-
-## ✨ Features
-
-- **Hero Section** — Eye-catching intro with animated code block
-- **About Me** — Personal bio with highlight stats
-- **Projects Showcase** — Filterable project gallery with category tabs
-- **Skills & Technologies** — Organized skill categories with progress bars
-- **Contact Form** — Working contact form with mailto integration
-- **Responsive Design** — Looks great on all devices
-- **Smooth Animations** — Subtle CSS animations throughout
-- **Dark Theme** — Beautiful dark color scheme with gradient accents
-
-## 🛠️ Tech Stack
+## Tech Stack
 
 - React 19
 - Vite 5
@@ -56,34 +43,3 @@ npm run build
 # Preview production build
 npm run preview
 ```
-
-## ✏️ Customization
-
-All portfolio content is centralized in **`src/data/portfolioData.js`**. Edit this single file to:
-
-1. **Update your personal info** — name, title, tagline, email, social links
-2. **Add your projects** — title, description, tags, links, category
-3. **Customize skills** — add/remove skills with icons and proficiency levels
-4. **Update about section** — bio paragraphs and highlight stats
-
-### Adding a New Project
-
-Add a new object to the `projectsData` array:
-
-```js
-{
-  id: 7,
-  title: 'My New Project',
-  description: 'A brief description of the project...',
-  image: '/path/to/screenshot.png',
-  tags: ['React', 'Node.js'],
-  category: 'fullstack',  // 'frontend', 'backend', or 'fullstack'
-  liveUrl: 'https://myproject.com',
-  githubUrl: 'https://github.com/user/repo',
-  featured: true,
-}
-```
-
-## 📄 License
-
-MIT
