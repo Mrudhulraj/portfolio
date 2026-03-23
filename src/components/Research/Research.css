@@ -1,0 +1,30 @@
+.research__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.research__item {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+  padding: 1.5rem 2rem;
+}
+
+.research__title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.research__desc {
+  color: #555;
+  margin-bottom: 0.75rem;
+}
+
+.research__link {
+  color: #0070f3;
+  text-decoration: underline;
+  font-size: 1rem;
+}

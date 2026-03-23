@@ -29,12 +29,12 @@ import { VscAzure } from 'react-icons/vsc'
 export const personalInfo = {
   name: 'Mrudhulraj Natarajan',
   title: 'AI Developer + Backend Engineer',
-  tagline: 'I build exceptional digital experiences that live on the internet.',
+  tagline: 'I am a problem solver interested in the field of AI Infra Management and Distributed Systems',
   description:
     'A passionate developer with experience in building web applications with modern technologies. I love turning complex problems into simple, beautiful, and intuitive solutions.',
   email: 'mrudhuln@uci.edu',
   location: 'Irvine, USA',
-  resumeUrl: '#', // Link to your resume PDF
+  resumeUrl: 'https://drive.google.com/file/d/1N0xI4oxA2PulJ8pPwL0aJdX7SXyVFv78/view?usp=sharing', // Link to your resume PDF
   socialLinks: {
     github: 'https://github.com/Mrudhulraj',
     linkedin: 'https://www.linkedin.com/in/mrudhulraj-natarajan/',
@@ -43,7 +43,7 @@ export const personalInfo = {
 
 // ===== ABOUT SECTION =====
 export const aboutData = {
-  image: '', // Add path to your photo
+  image: '/portfolio.jpeg', // Add path to your photo
   bio: [
     "Hello! I'm an AI Research Engineer/Developer who enjoys developing optimized backend-applications. My interests lies in the intersection of AI and Systems.",
     "My experience primarily focuses on Agentic AI, LLM-inference-optimization,Distributed Edge Systems and K8s. "
@@ -66,71 +66,35 @@ export const projectsData = [
       'A Distributed File System using a B-Tree metadata store for hierarchical namespace management and a FUSE filesystem interface for POSIX compliant file operations. Guranteed Data Consistency and Replication of Data across Nodes. Amplified write upto 655x using client-side buffering',
     image: '', // Add project screenshot path
     tags: ['Golang', 'Grpc', 'ChunkServers'],
-    category: 'fullstack',
+    category: 'Backend',
     liveUrl: '#',
     githubUrl: '#',
     featured: true,
   },
   {
     id: 2,
-    title: 'Task Management App',
+    title: 'AI Assisted ec2 Instance Orchestrator with K8s',
     description:
-      'A collaborative task management tool with real-time updates, drag-and-drop functionality, and team workspaces. Helps teams stay organized and productive.',
+      'A custom Kubernetes Operator to create ec2 Instances and mantain them from manifest files generated with help of an AI chatbot',
     image: '',
-    tags: ['React', 'Firebase', 'Tailwind CSS', 'DnD'],
-    category: 'frontend',
+    tags: ['Python','Golang','OpenAI SDK','AWS SDK', 'Kubernetes','Cobra CLI'],
+    category: 'AI+Kubernetes',
     liveUrl: '#',
     githubUrl: '#',
     featured: true,
   },
   {
     id: 3,
-    title: 'Weather Dashboard',
+    title: 'Go Kafka',
     description:
-      'A beautiful weather application that shows real-time weather data, forecasts, and interactive maps. Features location-based weather and saved locations.',
+      'A simple Apache Kafka inspired framework to ensure coordinated communication between K8 services',
     image: '',
-    tags: ['React', 'OpenWeather API', 'Chart.js'],
-    category: 'frontend',
+    tags: ['Golang', 'Kubernetes', 'Confluent SDK'],
+    category: 'Backend',
     liveUrl: '#',
     githubUrl: '#',
     featured: true,
-  },
-  {
-    id: 4,
-    title: 'REST API Service',
-    description:
-      'A scalable RESTful API with authentication, rate limiting, and comprehensive documentation. Built following industry best practices and design patterns.',
-    image: '',
-    tags: ['Node.js', 'Express', 'PostgreSQL', 'JWT'],
-    category: 'backend',
-    liveUrl: '#',
-    githubUrl: '#',
-    featured: false,
-  },
-  {
-    id: 5,
-    title: 'Portfolio Website',
-    description:
-      'A modern, responsive portfolio website built with React and Vite. Features smooth animations, dark theme, and an elegant design.',
-    image: '',
-    tags: ['React', 'Vite', 'CSS3'],
-    category: 'frontend',
-    liveUrl: '#',
-    githubUrl: '#',
-    featured: false,
-  },
-  {
-    id: 6,
-    title: 'Chat Application',
-    description:
-      'A real-time chat application with private messaging, group chats, file sharing, and emoji support. Built with WebSocket for instant communication.',
-    image: '',
-    tags: ['React', 'Socket.io', 'Node.js', 'MongoDB'],
-    category: 'fullstack',
-    liveUrl: '#',
-    githubUrl: '#',
-    featured: false,
-  },
+  }
 ]
 
 // ===== SKILLS =====
@@ -180,4 +144,24 @@ export const navLinks = [
   { name: 'Projects', href: '#projects' },
   { name: 'Skills', href: '#skills' },
   { name: 'Contact', href: '#contact' },
+]
+
+// ===== RESEARCH =====
+// export const researchData = [
+//   {
+//     title: 'Sample Research Project',
+//     description: 'A brief description of your research project, publication, or paper. You can include the main idea, your role, and any results or impact.',
+//     link: '#', // Link to paper, preprint, or project page
+//   },
+//   // Add more research items as needed
+// ]
+
+// ===== OPEN SOURCE CONTRIBUTIONS =====
+export const openSourceData = [
+  {
+    project: 'LLM-D-Inf-Sim',
+    description: 'Refactored the llm-d simulator’s Kubernetes manifests to correctly populate Vllm Engine configuration fields, enabling environment-aware validation of state-aware routing policies.',
+    link: 'https://github.com/llm-d/llm-d-inference-sim', // Link to repo or PR
+  },
+  // Add more open source contributions as needed
 ]

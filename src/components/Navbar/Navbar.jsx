@@ -43,9 +43,7 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <div className="navbar__container container">
         <a href="#home" className="navbar__logo" onClick={(e) => handleNavClick(e, '#home')}>
-          <span className="navbar__logo-bracket">&lt;</span>
-          {personalInfo.name.split(' ')[0]}
-          <span className="navbar__logo-bracket"> /&gt;</span>
+          Mrudhulraj Natarajan
         </a>
 
         <ul className={`navbar__links ${isOpen ? 'navbar__links--open' : ''}`}>

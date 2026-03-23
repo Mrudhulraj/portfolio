@@ -74,10 +74,9 @@ const Hero = () => {
               <code>{`const developer = {
   name: "${personalInfo.name}",
   role: "${personalInfo.title}",
-  skills: ["React", "Node.js",
-           "TypeScript", "Python"],
-  passion: "Building amazing
-            web experiences",
+  skills: ["Golang","Python","K8s","Databases",
+        "LLM-D","React", "Python"],
+  passion: "Orchestrating LLM applications",
   available: true
 };`}</code>
             </pre>
